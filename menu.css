@@ -22,18 +22,13 @@ body{
 
 .topbar-logo{
     float: left;
-    font-size: 18px;
-    font-weight: bold;
-    text-transform: uppercase;
-    color: #ffd148;
-    text-decoration: none;
     padding: 15px 15px; 
     margin-left: 100px; 
-}
+} 
 
 .topbar-nav{
     float: right;
-    margin: 13px 30px 0px 0;      
+    margin: 13px 35px 0px 0;      
 }
 .topbar-nav a {
     color:#3fa4d2;
@@ -44,13 +39,15 @@ body{
     width: 200px;
     float: left;
     margin-top: 30px;
+    margin-left: 10px;
     text-align: center;
-    padding-top: 4px;
+    padding-top: 7px;
     padding-bottom: 7px;
+
    
 }
 
-.topbar-nav a:hover{
+.topbar-nav a:hover,a:focus{
     background:#0064b9;
     color: #fff;
     border-radius: 10px;
@@ -61,7 +58,9 @@ body{
     color: #fff;
     font-size: 12px;
 }
-a:active {
-    color: #4b2f89;
+ {
+    background:#0064b9;
+    color: #fff;
+    border-radius: 10px;
    
   }
